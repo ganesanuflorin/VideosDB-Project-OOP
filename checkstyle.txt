@@ -1,0 +1,20 @@
+Starting audit...
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/main/Recommendation.java:13:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/main/Query.java:19:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/main/Query.java:22:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/main/Query.java:74:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/main/Query.java:78:23: '3' is a magic number. [MagicNumber]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/main/Query.java:116:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/main/Query.java:148:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/main/Query.java:221:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/main/Query.java:290:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/main/Query.java:350:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/main/Sort.java:6:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/fileio/SerialInputData.java:50:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/fileio/SerialInputData.java:59:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/fileio/SerialInputData.java:72:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/fileio/UserInputData.java:106:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/fileio/UserInputData.java:134:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /home/gigi/Downloads/Tema-POO-2020/./src/entertainment/Season.java:57:5: Missing a Javadoc comment. [MissingJavadocMethod]
+Audit done.
+Checkstyle ends with 17 errors.

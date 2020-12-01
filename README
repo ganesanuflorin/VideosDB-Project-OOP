@@ -1,0 +1,74 @@
+Object Oriented Programming Course
+Homework - VideosDB
+
+November 2020
+
+# Info
+https://ocw.cs.pub.ro/courses/poo-ca-cd/teme/tema
+
+# About the code
+
+We provide the input tests, the logic that parses them and the checker that runs them.
+
+* test_db - contains the tests in JSON format
+* src
+   * checker - the checker's sources including the checkstyle necessary files, not to be modified
+   * fileio - classes for parsing the input files, not to be modified
+   * common, utils
+        * contain utility classes with constants and static methods
+        * you can add your own functionality in the existing classes or add new classes as well
+   * actor
+        * contains an enum for the types of awards an actor can have - do not modify it
+        * you can add here your actor related classes
+   * entertainment
+        * contains an enum for the supported video genres - do not modify it
+        * class for representing a Season of a tv show - do not modify it
+        * you can add here your entertainment related classes
+
+We encourage you to organize your implementation in packages based on the functionality their classes offer. Try to keep
+your code modular, readable and documented.
+
+# Testing
+
+The Main class runs the checker on your implementation. Add the entry point to your implementation in it.
+
+Run Main to test your implementation from the IDE or from command line.
+
+Run the main method from Test class with the name of the input file from the command line and the result will be written
+to the out.txt file. Thus, you can compare this result with ref.
+
+-----Comenzile-----
+     Am ales sa implementez aceste comenzi in clasa UserInputData deoarece
+fiecare task tinea de user si mi-a fost mai lejer de rezolvat. Pentru favorite mi am
+scos userul apoi am verificat daca contine titlu filmul respectiv returnam diferite mesaje
+pentru fiecare caz. La view am parcurs mapul history pentru a gasi numarul total de view.
+Pentru ranting mi am luat o lista de rating unde tineam titlu fiecarui film carea fost 
+rated, la fel am parcurs mapul history si am vazut daca contine gradeul daca nu il adaugam eu.
+
+-----Query-----
+     Mi-am creat o clasa speciala unde am calculat toate queryurile.
+Pentru average mi am creat mai multe metode in clase diferite pentru a calculata media 
+de la filme/seriale si alte doua clase ajutatoare la sortare. 
+Pentru award mi am luat un LinkedHashMap in care am retinut numele actorului si 
+numarul de premii obtinute astfel incat sa pot face o sortare dupa numarul de premii
+Pentru Filter Description am avut nevoie de o lista in care stocam numele actorului,
+am avut grija sa fac o cautare dupa litere mici.
+Pentru rating am avut nevoie de un treemap deoarece am facut o sortare alfabetica in 
+rest are o rezolvare asemanatoare ca la celelalte doar ca am tinut cont de year.
+Pentru favrite am avut nevoie de un treemap pentru o sortare alfabetica unde am retinut
+titlu si numarul de aparitii, in rest la fel.
+Pentru longest am avut nevoie de un treemap pentru o sortare alfabetica unde am retinut 
+titlu filmului/serialului si durata la serial e putin diferit ca mi am facut suma sesoanelor
+in serialinputdata si doar am apelat metoda.
+Pentru mostview am avut nevoie de tot de tree deoarece am facut o sortare alfabetica si am 
+pus in aceasta numele filmului/serialului si numarul total de view.
+Pentru users am avut nevoie tot de un treemap si m am folosit de lista de la comenzi 
+dar nu inteleg de ce nu mi sorteaza bine cu aceeasi metoda ca inainte...
+
+-----Recommandation-----
+
+Pentru Standard mi am luat un user auxiliar apoi am verificat ce user nu are in history 
+titlu meu pentru a putea intoarce primul video nevazut din baza de date 
+Pentru Best unseen am avut nevoie de un user auxiliar si un LinkedHashMap pentru a stoca 
+titlu filmului/serialului si numarul de view uri apoi am sortat mapul si am afisat primul 
+film/serial din lista mea.
